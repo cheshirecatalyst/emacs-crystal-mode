@@ -2287,7 +2287,8 @@ See `font-lock-syntax-table'.")
           "public_class_method"
           "public_constant"
           "refine"
-          "using")
+          "using"
+          "record")
         'symbols))
      (1 (unless (looking-at " *\\(?:[]|,.)}=]\\|$\\)")
           font-lock-builtin-face)))
